@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skin Type Identifier</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>What's Your Skin Type?</h1>
+    <form id="quizForm">
+      <div class="question">
+        <p>1. How does your skin feel after washing?</p>
+        <label><input type="radio" name="q1" value="dry"> Tight and dry</label>
+        <label><input type="radio" name="q1" value="oily"> Oily and shiny</label>
+        <label><input type="radio" name="q1" value="combination"> Oily in T-zone only</label>
+        <label><input type="radio" name="q1" value="normal"> Smooth and comfortable</label>
+      </div>
+
+      <div class="question">
+        <p>2. How often do you experience breakouts?</p>
+        <label><input type="radio" name="q2" value="oily"> Frequently</label>
+        <label><input type="radio" name="q2" value="sensitive"> After using new products</label>
+        <label><input type="radio" name="q2" value="normal"> Rarely</label>
+        <label><input type="radio" name="q2" value="dry"> Hardly ever, but skin feels flaky</label>
+      </div>
+
+      <div class="question">
+        <p>3. How does your skin react to the weather?</p>
+        <label><input type="radio" name="q3" value="dry"> Becomes flaky in winter</label>
+        <label><input type="radio" name="q3" value="oily"> Becomes greasy in summer</label>
+        <label><input type="radio" name="q3" value="combination"> Changes with seasons</label>
+        <label><input type="radio" name="q3" value="sensitive"> Gets red or irritated</label>
+      </div>
+
+      <div class="question">
+        <p>4. How does your skin feel by midday?</p>
+  <label><input type="radio" name="q4" value="oily"> Very oily and shiny</label>
+  <label><input type="radio" name="q4" value="dry"> Feels tight and flaky</label>
+  <label><input type="radio" name="q4" value="normal"> Still feels balanced</label>
+  <label><input type="radio" name="q4" value="combination"> Oily in some areas, dry in others</label>
+</div>
+
+<div class="question">
+  <p>5. How does your skin react to new skincare products?</p>
+  <label><input type="radio" name="q5" value="sensitive"> Easily irritated or red</label>
+  <label><input type="radio" name="q5" value="normal"> Usually fine</label>
+  <label><input type="radio" name="q5" value="oily"> Breaks out sometimes</label>
+  <label><input type="radio" name="q5" value="dry"> Gets drier or peels</label>
+</div>
+
+
+      <button type="submit">Find My Skin Type</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
